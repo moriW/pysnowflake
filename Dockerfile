@@ -10,4 +10,6 @@ COPY . .
 
 RUN python3 setup.py install
 
+EXPOSE 80
+
 ENTRYPOINT ["snowflake_start_server"]
